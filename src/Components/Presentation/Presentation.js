@@ -5,7 +5,9 @@ const Presentation = () => {
   return (
     <div style={{position:'relative'}}>
         <div>
-            <div style={{backgroundImage: `url(`+ backgroundColor+ `)`,position:'relative'}}>
+            <div style={{backgroundImage: `url(`+ backgroundColor+ `)`,position:'relative', 
+  backgroundSize: '100% ',
+  backgroundRepeat: 'no-repeat'}}>
                 <div style={{height: '370px'}}></div>
                 <div style={{height: '190px',display: 'flex',justifyContent:'center', }}>
                     Shobana Jeyasingh Dance creates internationally acclaimed works for stage, site and screen that 
