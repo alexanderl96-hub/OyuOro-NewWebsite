@@ -7,18 +7,18 @@ import {
 import './App.css';
 import Home from '../src/Components/Home/Home'
 
-import Navbar from '../src/Components/NavBar/Navbar'
+import NavBar from './Components/NavBar/NavBar'
 import Footer from '../src/Components/Footer/Footer'
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
-        <Routes>
+        <NavBar />
+        {/* <Routes>
           <Route exact path='/' element={<Home />} />
         </Routes>
-        <Footer />
+        <Footer /> */}
       </Router>
      
     </div>
