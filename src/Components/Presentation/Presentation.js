@@ -10,8 +10,8 @@ const Presentation = () => {
   backgroundRepeat: 'no-repeat'}}>
                 <div style={{height: '370px'}}></div>
                 <div style={{height: '190px',display: 'flex',justifyContent:'center', }}>
-                    Shobana Jeyasingh Dance creates internationally acclaimed works for stage, site and screen that 
-                    are intellectually adventurous and visually exhilarating.
+                    {/* Shobana Jeyasingh Dance creates internationally acclaimed works for stage, site and screen that 
+                    are intellectually adventurous and visually exhilarating. */}
                 </div>
             </div>
            
